@@ -8,7 +8,6 @@ INDEX VERSION 1.129+C:\Users\APCS2\Desktop\wilsonchiu_APCS\.metadata\.plugins\or
 808374113.index
 414978335.index
 2380175872.index
-468246969.index
 4184201189.index
 351221734.index
 471236001.index
