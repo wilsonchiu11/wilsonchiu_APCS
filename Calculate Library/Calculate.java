@@ -29,5 +29,6 @@ public class Calculate {
 		return((number2*number2)-4*(number1)*(number3));
 	}	
 	public static String (int number1,int number2,intnumber3){	
+		return((number1+number2)/2);
 	}
 
