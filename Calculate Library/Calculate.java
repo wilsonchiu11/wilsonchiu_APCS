@@ -40,7 +40,59 @@ public class Calculate {
 	public static boolean isDivisbleBy (int number1,int number2){
 		return
 	}
-	
+	public static String toImproperFrac (int number1,int number2,int number3){	
+		return(((number1*number3)+number2)/number3);
+	}
+	public static String toMixedNum (int number1,int number2){
+		return((number1/number2)+"_"+(x%y)+"/"+y);
+	}
+	public static String foil (int number1,int number2,int number3,int number4,String n){
+		return((number1*number2)"n*n"+"+((number1#number4)+(number2*number3))+"n+"+(y*z));
+	}
+	public static boolean isDivisibleBy (int number1,int number2){
+		if (number1/number2 == 0){
+			return (true);
+			}else{
+			return (false);
+			}
+	}
+	public static double absValue (double number1){
+		if (number1 <=0 ){
+			return (number1 * -1);
+		}
+		return number1;
+	}
+	public static int max (int number1,int number2){
+		if (number1 >= number2){
+			return (number1);
+		}
+		return number2;
+	}
+	public static double max (double number1,double number2,double number3){
+		if (number1 > number2 && number1 > number3){
+			return (number1);
+		}
+		else if (number2 > number1 && number2 > number3){
+			return (number2);
+		}else{
+			return (number3);
+		}
+	}
+	public static int min (int number1,int number2){
+		if (number1 > number2){
+			return (number1);
+		}
+		return number2;
+	}
+	public static double round2 (double number1){
+		double var=number1
+		var
+				var=int(number1)
+		var
+		
+		return (((number1 * 100)+0.5)/100)
+	}
+
 	
 	
 	
