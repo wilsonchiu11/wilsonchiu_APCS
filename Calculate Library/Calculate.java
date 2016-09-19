@@ -16,10 +16,9 @@ public class Calculate {
 	}
 
 
- public static double average (double number1,double number2){
+	public static double average (double number1,double number2){
 		return((number1+number2)/2);
 	}
-
   	public static double average (double number1,double number2,double number3){
 		return((number1+number2+number3)/3);
 	}
@@ -90,14 +89,24 @@ public class Calculate {
 	}
 	public static int factorial (int number1){
 		int answer= number1;
-		for(int i=number1;i > 1; i --){
-			answer= number1*i;
+		for(int i=number1-1;i > 1; i --){
+			answer= (answer*i);
 		}
 		return answer;
 	}
-}
-/*
-	public static boolean isPrime (int number1){
+	public static boolean isPrime (int a){
+		int i=2;
+		while(a!=i){
+			if(Calculate.isDivisibleBy(a, i)==true){
+				return false;
+			}else{ 
+				i++;
+			}
+		}
+		return true;
+	}
 	
 	
-	*/
+			
+			
+		

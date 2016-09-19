@@ -18,9 +18,10 @@ public class DoMath{
 		System.out.println (Calculate.min(10,3));
 		System.out.println (Calculate.round2(10.847628746287634287346287346285368));
 		System.out.println (Calculate.exponent(3,3));
-		System.out.println (Calculate.factorial(4));
-		
+		System.out.println (Calculate.factorial(5));
+		System.out.println (Calculate.isPrime(45));
 	}
+	
 }
 
 
