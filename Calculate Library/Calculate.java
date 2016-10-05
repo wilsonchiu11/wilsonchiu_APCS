@@ -75,7 +75,7 @@ public class Calculate {
 		}
 		return number2;
 	}
-	public static double round2 (double number1){
+	public static double round2 (double number1){ //round
 		double answer=((number1*100)+0.5);
 		answer = ((int)answer)/100.0;
 		return (answer);
